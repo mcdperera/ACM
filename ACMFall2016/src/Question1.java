@@ -16,17 +16,20 @@ public class Question1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
         Scanner sc = new Scanner(System.in);
-        String s = sc.nextLine();
 
-        char[] charArray = s.toCharArray();
+        String str = sc.nextLine();
 
-        for (int i = charArray.length - 1; i >= 0; i--) {
-            System.out.print(charArray[i]);
+        char[] charArray = str.toCharArray();
+
+        for (int i = 0; i < charArray.length; i++) {
+            
+            for (int j = 0; j < i; j++) {
+                System.out.print(" ");
+            }
+            
+             System.out.println(charArray[i]);
         }
-
-        System.out.println("\n Question1 complete");
     }
 
 }
