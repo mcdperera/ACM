@@ -14,3 +14,4 @@ The contender with the highest score will win the competition.
 
 
 Spring 2017 - http://cs.okstate.edu/~acm/problems/spring2017.html
+Fall 2016 - http://cs.okstate.edu/~clined/acm/fall2016/contestProblemsFall2016.html
